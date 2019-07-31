@@ -4,14 +4,17 @@ header {
 
 h1,
 a {
+  font-family: "Lato", sans-serif;
   color: #ffffff;
 }
 
 h1 {
+  font-weight: 300;
   font-size: 40px;
 }
 
 a {
+  font-weight: 400;
   font-size: 21px;
   text-decoration: none;
 }
