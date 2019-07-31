@@ -1,25 +1,23 @@
 header {
-  display: flex;
   background-color: #e24647;
-}
-
-h1,
-a {
   font-family: "Lato", sans-serif;
   color: #ffffff;
+  overflow: hidden;
+  margin: 0 115px;
+  padding: 60px 50px 60px;
 }
 
 h1 {
-  flex: 1;
+  float: left;
   font-size: 40px;
-  margin: 45.5px 0 20px 62.4px;
 }
 nav {
-  margin: 55px 60px 0 0;
+  float: right;
+  font-size: 21px;
 }
 a {
-  flex: 1;
-  font-size: 21px;
   text-decoration: none;
-  margin: inherit;
+  font-family: inherit;
+  color: inherit;
+  margin: 4px 10px;
 }
