@@ -1,4 +1,5 @@
 header {
+  display: flex;
   background-color: #e24647;
 }
 
@@ -9,12 +10,16 @@ a {
 }
 
 h1 {
-  font-weight: 300;
+  flex: 1;
   font-size: 40px;
+  margin: 45.5px 0 20px 62.4px;
 }
-
+nav {
+  margin: 55px 60px 0 0;
+}
 a {
-  font-weight: 400;
+  flex: 1;
   font-size: 21px;
   text-decoration: none;
+  margin: inherit;
 }
