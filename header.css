@@ -19,5 +19,36 @@ a {
   text-decoration: none;
   font-family: inherit;
   color: inherit;
-  margin: 4px 10px;
+  margin-left: 60px;
+}
+div {
+  height: 665px;
+  margin: 0 115px;
+  background-color: #e24647;
+}
+footer {
+  height: 150px;
+  margin: 0 115px;
+  padding-right: 165px;
+  background-color: #e24647;
+  text-align: right;
+}
+button {
+  width: 200px;
+  height: 60px;
+  margin: 40px;
+  font-family: inherit;
+  font-size: 20px;
+}
+
+#btn-carrinho {
+  border: 2px solid #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+#btn-comprar {
+  border: 2px solid #252c41;
+  background-color: #252c41;
+  color: #ffffff;
 }
