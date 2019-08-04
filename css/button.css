@@ -1,0 +1,23 @@
+.button {
+  width: 200px;
+  height: 60px;
+  margin: 40px;
+  line-height: 60px;
+  text-align: center;
+  font-family: inherit;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.btn-add-cart {
+  width: 220px;
+  border: 2px solid #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.btn-buy {
+  border: 2px solid #252c41;
+  background-color: #252c41;
+  color: #ffffff;
+}

@@ -1,5 +1,5 @@
-#container {
-  display: table;
+.container-store {
+  position: fixed;
   width: 100%;
   height: 100%;
   background-image: linear-gradient(to top, #ff2e63, #252a34);
@@ -13,56 +13,37 @@
   box-shadow: 0 0 39px 0 rgba(50, 50, 50, 0.36);
 }
 
-header {
+.header-store {
   height: 15vh;
 }
 
-.logo {
+.header-logo {
   float: left;
   font-size: 40px;
   margin: 60px;
 }
-nav {
+.navigation-store {
   float: right;
   font-size: 21px;
   margin: 60px;
 }
-a {
+.navigation-menu-store {
   text-decoration: none;
   font-family: inherit;
   color: inherit;
   margin-left: 60px;
 }
-.content {
+.content-store {
   height: 50vh;
   text-align: center;
 }
 .fone {
   font-size: 50px;
 }
-footer {
+.footer-store {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   height: 15vh;
   padding-right: 160px;
-}
-button {
-  width: 200px;
-  height: 60px;
-  margin: 40px;
-  font-family: inherit;
-  font-size: 20px;
-}
-
-#btn-carrinho {
-  border: 2px solid #ffffff;
-  background-color: transparent;
-  color: #ffffff;
-}
-
-#btn-comprar {
-  border: 2px solid #252c41;
-  background-color: #252c41;
-  color: #ffffff;
 }
