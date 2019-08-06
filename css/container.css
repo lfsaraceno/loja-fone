@@ -1,0 +1,15 @@
+.container-store {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to top, #ff2e63, #252a34);
+}
+.wrap {
+  background-color: #e24647;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  width: 90%;
+  height: 85%;
+  margin: 5% auto 5% auto;
+  box-shadow: 0 0 39px 0 rgba(50, 50, 50, 0.36);
+}

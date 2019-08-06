@@ -1,0 +1,50 @@
+.content-store {
+  height: 65vh;
+  text-align: end;
+}
+.box-headphone {
+  width: 600px;
+  height: 575px;
+  border-radius: 0 150px 150px 0;
+  background-color: #ffffff;
+  position: absolute;
+}
+.img-phone {
+  width: 550px;
+  height: 550px;
+  margin: 5% 0 0 15%;
+}
+
+.box-description {
+  width: 550px;
+  text-align: left;
+  margin-left: 10%;
+  display: inline-block;
+}
+.box-description .title {
+  font-size: 25px;
+  padding: 0 0 100px 0;
+}
+
+.box-description .item {
+  padding: 0 0 30px;
+}
+
+.box-description .item.-info {
+  width: 160px;
+  text-align: right;
+}
+
+.box-description .contrast {
+  text-transform: uppercase;
+  float: left;
+}
+.box-description .text {
+  padding-bottom: 60px;
+  line-height: 30px;
+}
+
+.more {
+  text-decoration: none;
+  color: #ffffff;
+}

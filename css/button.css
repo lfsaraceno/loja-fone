@@ -13,10 +13,12 @@
 
 .button.-cart {
   width: 220px;
+  font-weight: 300;
   border: 2px solid #ffffff;
   background-color: transparent;
 }
 
 .button.-buy {
+  font-weight: 500;
   background-color: #252c41;
 }
