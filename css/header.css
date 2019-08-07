@@ -1,5 +1,25 @@
 .header-store {
   height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-store .search {
+  background: transparent;
+  outline: none;
+  border-style: none;
+  border-bottom: 1px solid #ffffff;
+  color: inherit;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: normal;
+  margin-left: 60%;
+  cursor: pointer;
+}
+.header-store .search::placeholder {
+  color: inherit;
+  text-indent: inherit;
 }
 
 .header-logo {
