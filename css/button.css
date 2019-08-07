@@ -9,6 +9,7 @@
   font-size: 20px;
   text-decoration: none;
   color: #ffffff;
+  cursor: pointer;
 }
 
 .button.-cart {
@@ -17,8 +18,16 @@
   border: 2px solid #ffffff;
   background-color: transparent;
 }
+.button.-cart:hover {
+  background-color: #fff;
+  color: #e24647;
+}
 
 .button.-buy {
   font-weight: 500;
   background-color: #252c41;
+}
+.button.-buy:hover {
+  background-color: #fff;
+  color: #252c41;
 }
