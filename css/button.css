@@ -10,6 +10,11 @@
   text-decoration: none;
   color: #ffffff;
   cursor: pointer;
+  transition: background-color 300ms linear, color 300ms linear,
+    transform 200ms linear;
+}
+.button:active {
+  transform: scale(0.95);
 }
 
 .button.-cart {
@@ -18,7 +23,8 @@
   border: 2px solid #ffffff;
   background-color: transparent;
 }
-.button.-cart:hover {
+.button.-cart:hover,
+.button.-cart:focus {
   background-color: #fff;
   color: #e24647;
 }
@@ -27,7 +33,8 @@
   font-weight: 500;
   background-color: #252c41;
 }
-.button.-buy:hover {
+.button.-buy:hover,
+.button.-buy:focus {
   background-color: #fff;
-  color: #252c41;
+  color: #e24647;
 }
