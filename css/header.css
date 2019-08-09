@@ -48,4 +48,10 @@
   font-family: inherit;
   color: inherit;
   margin-left: 60px;
+  border-bottom: 0 solid transparent;
+}
+
+.navigation-menu-store:hover {
+  border-bottom: 1px solid #ffffff;
+  transition: 700ms linear;
 }
