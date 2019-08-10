@@ -4,7 +4,9 @@
   height: 100%;
   background-image: linear-gradient(to top, #ff2e63, #252a34);
 }
+
 .wrap {
+  position: absolute;
   background-color: #e24647;
   font-family: "Roboto", sans-serif;
   color: #ffffff;

@@ -39,6 +39,7 @@
   cursor: pointer;
 }
 .navigation-store {
+  position: relative;
   float: right;
   font-size: 21px;
   margin: 60px;
@@ -48,10 +49,22 @@
   font-family: inherit;
   color: inherit;
   margin-left: 60px;
-  border-bottom: 0 solid transparent;
+  position: inherit;
 }
 
-.navigation-menu-store:hover {
-  border-bottom: 1px solid #ffffff;
-  transition: 700ms linear;
+.navigation-menu-store::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+  transform: scaleX(0);
+  transition: transform 300ms cubic-bezier(0.6, 0.04, 0.98, 0.34);
+  transform-origin: center left;
+}
+
+.navigation-menu-store:hover::after {
+  transform: scale(1);
 }
