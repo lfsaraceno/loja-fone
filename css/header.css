@@ -1,16 +1,29 @@
 .header-store {
-  height: 15vh;
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
+  height: 160px;
   justify-content: space-between;
+  align-items: center;
 }
 .header-store .gueio {
+  flex: 1;
   border-radius: 50%;
-  width: 80px;
-  height: 80px;
-  position: inherit;
-  margin-left: 30px;
+  max-width: 80px;
+  max-height: 80px;
+  margin: 0px 30px;
+  align-self: center;
   box-shadow: 0 0 39px 3px rgba(50, 50, 50, 0.36);
+}
+.header-logo {
+  flex: 2;
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 600px;
+  font-size: 40px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.header-action {
+  flex: 2;
 }
 
 .header-store .search {
@@ -22,7 +35,6 @@
   font-size: 20px;
   line-height: 24px;
   font-weight: normal;
-  margin-left: 60%;
   cursor: pointer;
 }
 .header-store .search::placeholder {
@@ -30,31 +42,23 @@
   text-indent: inherit;
 }
 
-.header-logo {
-  font-family: "Comfortaa", sans-serif;
-  font-weight: 600;
-  float: left;
-  font-size: 40px;
-  text-transform: uppercase;
-  cursor: pointer;
-}
 .navigation-store {
-  position: relative;
-  float: right;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 2;
   font-size: 21px;
-  margin: 60px;
+  justify-content: space-between;
+  margin-right: 60px;
 }
 .navigation-menu-store {
   text-decoration: none;
   font-family: inherit;
   color: inherit;
-  margin-left: 60px;
-  position: inherit;
 }
 
 .navigation-menu-store::after {
   content: "";
-  position: absolute;
+  display: flex;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -67,4 +71,17 @@
 
 .navigation-menu-store:hover::after {
   transform: scale(1);
+}
+
+@media (max-width: 1150px) {
+  .gueio {
+    min-width: 80px;
+    min-height: 80px;
+    margin: 10px;
+  }
+  .header-logo,
+  .header-action,
+  .navigation-store {
+    margin: 10px;
+  }
 }
