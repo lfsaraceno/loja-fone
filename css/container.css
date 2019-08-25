@@ -24,3 +24,15 @@ body {
   font-family: "Roboto", sans-serif;
   box-shadow: 0 0 39px 0 rgba(50, 50, 50, 0.36);
 }
+
+@media (max-width: 1210px) {
+  .container-store {
+    height: auto;
+    width: auto;
+    background-image: none;
+  }
+  .wrap {
+    height: 100%;
+    max-height: 100%;
+  }
+}

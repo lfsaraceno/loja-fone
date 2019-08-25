@@ -85,3 +85,31 @@
     margin: 10px;
   }
 }
+
+@media (max-width: 1150px) {
+  .header-action {
+    display: none;
+  }
+}
+
+@media (max-width: 790px) {
+  .navigation-store {
+    min-width: 310px;
+  }
+  .header-logo {
+    min-width: 300px;
+  }
+}
+
+@media (max-width: 459px) {
+  .header-logo {
+    text-align: center;
+  }
+  .header-store .gueio {
+    margin: 10px 50%;
+    transform: translateX(-50%);
+  }
+  .navigation-store {
+    display: none;
+  }
+}

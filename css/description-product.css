@@ -68,3 +68,31 @@
   color: #ffffff;
   margin-bottom: 110px;
 }
+
+@media (max-width: 1210px) {
+  .box-headphone {
+    flex: 0 1 100%;
+    border-radius: 0;
+  }
+  .box-headphone {
+    display: flex;
+    flex: 1 1 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .box-description {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+  }
+  .box-description .heart {
+    float: right;
+    right: 1rem;
+  }
+  .item.-score {
+    position: relative;
+    bottom: 2rem;
+  }
+}
