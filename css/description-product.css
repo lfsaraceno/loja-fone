@@ -24,11 +24,17 @@
   top: 4rem;
   right: 3rem;
 }
-.box-description .heart:hover {
+.box-description .heart.-active {
+  position: relative;
+  top: 4rem;
+  right: 3rem;
+  background-image: url(/img/heart-active.png);
+}
+.box-description .heart:hover,
+.box-description .heart.-active:hover {
   cursor: pointer;
   transform: scale(1.1);
 }
-
 .box-description .title {
   font-size: 25px;
   padding: 20px 0 55px 0;
@@ -87,7 +93,8 @@
     margin-right: auto;
     padding: 10px;
   }
-  .box-description .heart {
+  .box-description .heart,
+  .box-description .heart.-active {
     float: right;
     right: 1rem;
   }

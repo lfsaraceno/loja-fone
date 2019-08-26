@@ -1,14 +1,15 @@
+let valorInicial = 0;
 const $heart = document.querySelector(".heart");
 const $btnCart = document.querySelector(".-cart");
-const $navCart = document.querySelector(".-cart-menu");
 
 $heart.addEventListener("click", handleClick);
 $btnCart.addEventListener("click", clickCart);
 
 function handleClick() {
-  console.log("Heart");
+  $heart.classList.toggle("-active");
 }
 
 function clickCart() {
-  $navCart.innerHTML = "NewCart";
+  const $navCart = document.querySelector(".-cart-menu");
+  $navCart.innerHTML = `Carrinho (${++valorInicial})`;
 }
