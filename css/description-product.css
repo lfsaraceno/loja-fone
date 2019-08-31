@@ -25,9 +25,6 @@
   right: 3rem;
 }
 .box-description .heart.-active {
-  position: relative;
-  top: 4rem;
-  right: 3rem;
   background-image: url(/img/heart-active.png);
 }
 .box-description .heart:hover,
@@ -44,6 +41,9 @@
   width: 175px;
   justify-content: space-between;
   padding-bottom: 15px;
+}
+.-star-active {
+  background-image: url(/img/star-full.png);
 }
 .box-description .star-rating:hover {
   cursor: pointer;
