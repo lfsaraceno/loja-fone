@@ -87,8 +87,35 @@
 }
 
 @media (max-width: 1150px) {
+  .header-store {
+    height: 200px;
+  }
   .header-action {
-    display: none;
+    display: inline-block;
+    position: absolute;
+    float: left;
+    top: 0;
+    margin: 0;
+    padding: 5px;
+    background-color: #fff;
+    color: #252c41;
+    transform: translateX(-85%);
+  }
+  .header-action:hover {
+    transform: translateX(0);
+  }
+  .header-store .gueio {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .navigation-store {
+    min-width: 310px;
+    justify-content: space-around;
+  }
+  .header-logo {
+    min-width: 100%;
+    text-align: center;
   }
 }
 
@@ -97,7 +124,11 @@
     min-width: 310px;
   }
   .header-logo {
-    min-width: 300px;
+    min-width: 100%;
+    text-align: center;
+  }
+  .header-action {
+    /* display: block; */
   }
 }
 
