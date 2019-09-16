@@ -44,16 +44,16 @@
     height: 24px;
     text-align: center;
     vertical-align: middle;
-    margin-bottom: 2px;
-    margin-right: 2px;
-    border: 0;
-    border-style: none;
-  }
-  .header-action .icon {
-    background-image: url(/img/search.png);
+    margin-bottom: 4px;
+    margin-right: 4px;
+    background-size: 24px;
+    background-image: url(/img/search.svg);
+    background-color: transparent;
+    border: none;
+    outline: none;
   }
 
   .header-action .icon.-close {
-    background-image: url(/img/close.png);
+    background-image: url(/img/close.svg);
   }
 }
