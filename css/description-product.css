@@ -5,9 +5,23 @@
 }
 
 .box-headphone {
-  flex: 0 1 600px;
+  display: flex;
+  width: 600px;
+  height: 600px;
   border-radius: 0 150px 150px 0;
   background-color: #ffffff;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.box-headphone::before {
+  content: "";
+  width: 600px;
+  height: 600px;
+  background-color: #fff;
+  position: absolute;
+  left: calc(-15% - 9px);
+  z-index: -1;
 }
 .img-phone {
   width: 550px;
@@ -85,6 +99,9 @@
     flex: 1 1 100%;
     flex-wrap: wrap;
     justify-content: center;
+  }
+  .box-headphone::before {
+    display: none;
   }
   .box-description {
     text-align: center;
